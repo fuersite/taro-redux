@@ -1,0 +1,77 @@
+.index_wraper {
+  flex-direction: column;
+  width: 100%;
+
+  .content_title {
+    text-align: center;
+  }
+
+  .content_item_0 {
+    height: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 20px;
+    padding: 0 20px 0 20px;
+
+    .input_text_name {
+      display: block;
+      height: 60px;
+      flex-grow: 1;
+      border: 1px solid #bbb;
+      padding-left:10px;
+      font-size: 24px;
+      border: 2px solid rgb(80, 164, 243);
+      border-radius: 10px;
+    }
+
+    .button_del {
+      margin-right: 20px;
+      background-color: rgb(209, 71, 68);
+      border: 2px solid rgb(209, 71, 68);
+      display: block;
+      height: 60px;
+      width: 160px;
+      flex-grow: 1;
+      color: antiquewhite;
+      text-align: center;
+      font-size: 24px;
+      border-radius: 10px;
+      outline-style: none;
+    }
+
+    .button_add {
+      width: 200px;
+      height: 60px;
+      line-height: 60px;
+      font-size: 24px;
+      margin-left: 20px;
+      outline-style: none;
+      border: 2px solid rgb(80, 164, 243);
+      border-radius: 10px;
+      background-color: aliceblue;
+    }
+
+    .other-button-add-hover {
+      box-shadow: 0px 0px 50px rgb(147, 195, 240) inset;
+      color:#fff;
+    }
+
+    .other-button-del-hover {
+      box-shadow: 0px 0px 50px rgb(226, 120, 77) inset;
+      color:#fff;
+    }
+  }
+
+  .content_item_1 {
+    padding: 20px 20px;
+
+    .checkbox-list__checkbox {
+      margin-right: 10px;
+      font-size: 38px;
+    }
+
+    .item_text {
+      font-size: 38px;
+    }
+  }
+}
